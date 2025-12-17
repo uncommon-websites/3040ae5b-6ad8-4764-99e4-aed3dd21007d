@@ -92,13 +92,13 @@
 			<div class="col-span-2 bg-gray-50/50 p-12 flex items-center justify-center relative">
 				<div class="bg-white rounded-xl shadow-sm border border-gray-200 w-full max-w-md overflow-hidden">
 					<div class="p-3 border-b border-gray-100 flex items-center gap-2 bg-gray-50/50">
-						<BarChart2 size={16} style="color: oklch(0.696 0.17 162.48)" />
+						<BarChart3 size={16} style="color: oklch(0.696 0.17 162.48)" />
 						<span class="text-xs font-medium text-gray-700">Budget Alert</span>
 					</div>
 					<div class="p-4 space-y-4">
 						<div class="flex gap-3">
 							<div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background: oklch(0.95 0.052 163.051)">
-								<BarChart2 size={16} style="color: oklch(0.696 0.17 162.48)" />
+								<BarChart3 size={16} style="color: oklch(0.696 0.17 162.48)" />
 							</div>
 							<div class="flex-1">
 								<div class="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-sm text-gray-800 mb-2">
