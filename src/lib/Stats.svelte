@@ -5,25 +5,25 @@
 	<div class="grid grid-cols-1 md:grid-cols-2 gap-20 items-center relative z-10">
 		<div>
 			<h2 class="text-4xl font-serif text-gray-900 mb-6">
-				The system of action for the next generation.
+				Built for the German SME market.
 			</h2>
 			<p class="text-gray-500 text-lg leading-relaxed">
-				Attio is built for scale. Our customers sort through millions of records with sub-50ms latency.
+				Hivebuy is designed specifically for German SMEs. Our customers manage billions in procurement spend with complete control and transparency.
 			</p>
 		</div>
 
 		<div class="grid grid-cols-2 gap-y-12 gap-x-8">
 			<div>
-				<div class="text-4xl font-bold text-gray-900 mb-2">200,000,000</div>
-				<div class="text-sm text-gray-500">Customer records</div>
+				<div class="text-4xl font-bold text-gray-900 mb-2">€500B</div>
+				<div class="text-sm text-gray-500">Market opportunity</div>
 			</div>
 			<div>
-				<div class="text-4xl font-bold text-gray-900 mb-2">132+</div>
-				<div class="text-sm text-gray-500">Countries</div>
+				<div class="text-4xl font-bold text-gray-900 mb-2">10,000+</div>
+				<div class="text-sm text-gray-500">German SMEs</div>
 			</div>
 			<div>
-				<div class="text-4xl font-bold text-gray-900 mb-2">5,000+</div>
-				<div class="text-sm text-gray-500">Customers</div>
+				<div class="text-4xl font-bold text-gray-900 mb-2">€8.2B</div>
+				<div class="text-sm text-gray-500">Spend under management</div>
 			</div>
 			<div>
 				<div class="text-4xl font-bold text-gray-900 mb-2">99.9%</div>

@@ -5,26 +5,26 @@
 <section class="max-w-[1200px] mx-auto px-6 py-20 text-center">
 	<div class="max-w-3xl mx-auto mb-12">
 		<h2 class="text-4xl font-serif text-gray-900 mb-6">
-			Build fast. <span class="text-gray-500 font-sans text-xl font-normal block mt-4">Forget months of setup. Attio syncs immediately with your email and calendar, building a powerful CRM right before your eyes.</span>
+			Set up in minutes. <span class="text-gray-500 font-sans text-xl font-normal block mt-4">Forget months of implementation. Hivebuy connects to your ERP system instantly, importing your vendors, budgets, and approval chains automatically.</span>
 		</h2>
 		<button class="mt-8 px-5 py-2.5 bg-black text-white rounded-lg text-sm font-medium hover:bg-gray-800 transition-colors">
-			Start for free
+			Get started
 		</button>
 	</div>
 
 	<!-- Tabs -->
 	<div class="flex justify-center gap-4 mb-12">
 		<button class="flex items-center gap-2 px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-medium text-gray-900 shadow-sm hover:bg-gray-50">
-			<Mail size={14} /> Email streams
+			<Database size={14} /> ERP Integration
 		</button>
 		<button class="flex items-center gap-2 px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50 transition-colors">
-			<Calendar size={14} /> Calendar events
+			<Mail size={14} /> Vendor Import
 		</button>
 		<button class="flex items-center gap-2 px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50 transition-colors">
-			<Activity size={14} /> Digital exhaust
+			<Activity size={14} /> Budget Setup
 		</button>
 		<button class="flex items-center gap-2 px-4 py-2 bg-white border border-gray-200 rounded-full text-xs font-medium text-gray-500 hover:text-gray-900 hover:bg-gray-50 transition-colors">
-			<Database size={14} /> Data sources
+			<CheckSquare size={14} /> Approval Chains
 		</button>
 	</div>
 
@@ -33,12 +33,12 @@
 		<!-- Header -->
 		<div class="h-14 border-b border-gray-200 flex items-center justify-between px-6 bg-white">
 			<div class="flex items-center gap-4">
-				<div class="w-8 h-8 rounded-full bg-gray-200 overflow-hidden">
-					<img src="https://i.pravatar.cc/150?u=5" alt="Sarah Johnson" class="w-full h-full object-cover"/>
+				<div class="w-8 h-8 rounded bg-gray-200 flex items-center justify-center text-sm font-bold text-gray-700">
+					S
 				</div>
 				<div>
-					<div class="text-sm font-semibold text-gray-900">Sarah Johnson</div>
-					<div class="text-xs text-gray-500">Head of IT at GreenLeaf Inc.</div>
+					<div class="text-sm font-semibold text-gray-900">Siemens AG</div>
+					<div class="text-xs text-gray-500">Preferred Vendor - IT Equipment</div>
 				</div>
 			</div>
 			<div class="flex items-center gap-3">
@@ -55,18 +55,18 @@
 				
 				<div class="grid grid-cols-[20px_1fr] gap-2 text-xs mb-4">
 					<div class="text-gray-400"><Mail size={14} /></div>
-					<div class="text-gray-900 truncate">sarah.johnson@greenleaf.com</div>
+					<div class="text-gray-900 truncate">procurement@siemens.com</div>
 					
 					<div class="text-gray-400"><Calendar size={14} /></div>
-					<div class="text-gray-900">Last met 2 days ago</div>
+					<div class="text-gray-900">Last order 5 days ago</div>
 					
 					<div class="text-gray-400"><Database size={14} /></div>
-					<div class="text-gray-900">GreenLeaf Inc.</div>
+					<div class="text-gray-900">€2.4M annual spend</div>
 				</div>
 
-				<div class="text-[11px] font-medium text-gray-400 mb-2 uppercase tracking-wider mt-4">Lists</div>
+				<div class="text-[11px] font-medium text-gray-400 mb-2 uppercase tracking-wider mt-4">Categories</div>
 				<div class="flex items-center gap-2 text-xs text-gray-700 bg-white border border-gray-200 p-2 rounded shadow-sm">
-					<div class="w-2 h-2 rounded-full bg-green-500"></div> Sales Pipeline
+					<div class="w-2 h-2 rounded-full" style="background: oklch(0.696 0.17 162.48)"></div> IT Equipment
 				</div>
 			</div>
 
@@ -74,19 +74,19 @@
 			<div class="flex-1 bg-white p-6 overflow-y-auto">
 				<div class="flex items-center justify-between mb-6">
 					<h3 class="text-sm font-semibold text-gray-900 flex items-center gap-2">
-						<Activity size={16} /> Highlights
+						<Activity size={16} /> Recent Activity
 					</h3>
-					<button class="text-xs text-blue-600 font-medium">+ Add note</button>
+					<button class="text-xs font-medium" style="color: oklch(0.696 0.17 162.48)">+ Add purchase order</button>
 				</div>
 
 				<!-- Highlight Card -->
-				<div class="bg-blue-50/50 border border-blue-100 rounded-lg p-4 mb-8">
+				<div class="border rounded-lg p-4 mb-8" style="background: oklch(0.979 0.021 166.113); border-color: oklch(0.905 0.093 164.15)">
 					<p class="text-sm text-gray-700 leading-relaxed">
-						Sarah joined the thread "Re: Q3 Roadmap Review". She mentioned they are looking for a new CRM solution and are evaluating competitors.
+						Siemens has been added as a preferred vendor for IT Equipment. Payment terms: Net 30. Average delivery time: 5-7 business days.
 					</p>
 					<div class="flex items-center gap-2 mt-3">
-						<div class="w-5 h-5 rounded-full bg-purple-100 flex items-center justify-center text-[10px] text-purple-600">AI</div>
-						<span class="text-xs text-gray-500">Summarized by Attio AI</span>
+						<div class="w-5 h-5 rounded flex items-center justify-center text-[10px] text-white font-medium" style="background: oklch(0.696 0.17 162.48)">✓</div>
+						<span class="text-xs text-gray-500">Auto-imported from SAP</span>
 					</div>
 				</div>
 
@@ -97,28 +97,24 @@
 						<div class="absolute -left-[21px] top-0 w-3 h-3 rounded-full bg-gray-200 border-2 border-white"></div>
 						<div class="flex items-start justify-between">
 							<div>
-								<div class="text-sm font-medium text-gray-900">Email sent: "Following up on our chat"</div>
-								<p class="text-xs text-gray-500 mt-1">Hey Sarah, great meeting you yesterday. As discussed...</p>
+								<div class="text-sm font-medium text-gray-900">Purchase Order: PO-2024-0342</div>
+								<p class="text-xs text-gray-500 mt-1">IT Equipment - €12,450 - Approved by Bettina Fischer</p>
 							</div>
-							<span class="text-xs text-gray-400">2 days ago</span>
+							<span class="text-xs text-gray-400">5 days ago</span>
 						</div>
 					</div>
 
 					<!-- Event 2 -->
 					<div class="relative">
-						<div class="absolute -left-[21px] top-0 w-3 h-3 rounded-full bg-blue-500 border-2 border-white"></div>
+						<div class="absolute -left-[21px] top-0 w-3 h-3 rounded-full border-2 border-white" style="background: oklch(0.696 0.17 162.48)"></div>
 						<div class="flex items-start justify-between">
 							<div>
-								<div class="text-sm font-medium text-gray-900">Meeting: "Intro Call"</div>
+								<div class="text-sm font-medium text-gray-900">Contract Renewal</div>
 								<div class="flex items-center gap-2 mt-1">
-									<div class="flex -space-x-1">
-										<div class="w-5 h-5 rounded-full bg-gray-200 border border-white"></div>
-										<div class="w-5 h-5 rounded-full bg-gray-300 border border-white"></div>
-									</div>
-									<span class="text-xs text-gray-500">3 attendees</span>
+									<span class="text-xs text-gray-500">Annual agreement renewed - €2.4M</span>
 								</div>
 							</div>
-							<span class="text-xs text-gray-400">3 days ago</span>
+							<span class="text-xs text-gray-400">12 days ago</span>
 						</div>
 					</div>
 					
@@ -127,9 +123,9 @@
 						<div class="absolute -left-[21px] top-0 w-3 h-3 rounded-full bg-gray-200 border-2 border-white"></div>
 						<div class="flex items-start justify-between">
 							<div>
-								<div class="text-sm font-medium text-gray-900">Michael Chang added Sarah to "Sales Pipeline"</div>
+								<div class="text-sm font-medium text-gray-900">Stefan Kiehne added Siemens to "Preferred Vendors"</div>
 							</div>
-							<span class="text-xs text-gray-400">5 days ago</span>
+							<span class="text-xs text-gray-400">30 days ago</span>
 						</div>
 					</div>
 				</div>
