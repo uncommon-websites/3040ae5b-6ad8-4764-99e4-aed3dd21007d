@@ -9,11 +9,11 @@
 	</a>
 
 	<h1 class="text-[56px] leading-[1.1] font-serif tracking-tight text-gray-900 mb-6 max-w-4xl mx-auto">
-		Procurement control,<br/>simplified.
+		Indirect Procurement on Autopilot
 	</h1>
 
 	<p class="text-lg text-gray-500 mb-10 max-w-xl mx-auto text-balance">
-		Automated approval workflows and real-time budget tracking for German SMEs.
+		Automate requests, approvals, and purchasing with zero operational friction.
 	</p>
 
 	<div class="flex items-center justify-center gap-4 mb-20">
