@@ -18,12 +18,8 @@
 	<nav class="bg-white/90 backdrop-blur-md border-b border-gray-200">
 		<div class="max-w-[1400px] mx-auto px-6 h-16 flex items-center justify-between">
 			<div class="flex items-center gap-8">
-				<a href="/" class="flex items-center gap-2 text-black hover:opacity-80 transition-opacity">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M12 4L4 8V16L12 20L20 16V8L12 4Z" fill="oklch(0.696 0.17 162.48)"/>
-						<path d="M12 4V12M4 8L12 12M20 8L12 12M12 20V12M4 16L12 12M20 16L12 12" stroke="black" stroke-width="1"/>
-					</svg>
-					<span class="font-bold text-xl tracking-tight">Hivebuy</span>
+				<a href="/" class="flex items-center hover:opacity-80 transition-opacity">
+					<img src="/uploaded/1765979248433-er124lo.png" alt="Hivebuy" class="h-8" />
 				</a>
 
 				<div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">

@@ -7,13 +7,8 @@
 		<div class="grid grid-cols-2 md:grid-cols-6 gap-10 mb-20">
 			<!-- Logo Column -->
 			<div class="col-span-2">
-				<a href="/" class="flex items-center gap-2 text-white mb-6">
-					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M5.5 12L10.5 19L15.5 12L10.5 5L5.5 12Z" fill="white"/>
-						<path d="M10.5 19L15.5 12L20.5 19H10.5Z" fill="white" fill-opacity="0.5"/>
-						<path d="M5.5 12L10.5 5L15.5 12H5.5Z" fill="white" fill-opacity="0.5"/>
-					</svg>
-					<span class="font-bold text-xl tracking-tight">attio</span>
+				<a href="/" class="flex items-center mb-6 hover:opacity-80 transition-opacity">
+					<img src="/uploaded/1765979248433-er124lo.png" alt="Hivebuy" class="h-8 brightness-0 invert" />
 				</a>
 			</div>
 
