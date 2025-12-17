@@ -155,57 +155,116 @@
 				<div>
 					<h3 class="text-xl font-bold text-gray-900 mb-4">Seamless ERP integration</h3>
 					<p class="text-gray-500 leading-relaxed mb-8">
-						Pre-configured connectors for SAP, DATEV, and other leading ERP systems. Sync purchase orders, invoices, and vendor data automatically.
+						Pre-configured connectors for SAP, MS Dynamics, MS Teams, Slack, DATEV, d.Velop and other leading systems. Sync purchase orders, invoices, and vendor data automatically.
 					</p>
 				</div>
 				<a href="#" class="inline-flex items-center gap-2 text-sm font-medium text-gray-900 hover:opacity-70 transition-opacity">
 					Explore integrations <ArrowRight size={16} />
 				</a>
 			</div>
-			<div class="col-span-2 bg-gray-50/50 p-12 flex items-center justify-center relative">
-				<div class="relative w-full max-w-md h-64 flex items-center justify-center">
-					<!-- Center Logo -->
-					<div class="w-16 h-16 bg-black rounded-xl flex items-center justify-center z-10 shadow-lg">
-						<svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path d="M12 4L4 8V16L12 20L20 16V8L12 4Z" fill="oklch(0.696 0.17 162.48)"/>
-							<path d="M12 4V12M4 8L12 12M20 8L12 12M12 20V12M4 16L12 12M20 16L12 12" stroke="white" stroke-width="1"/>
-						</svg>
+			<div class="col-span-2 bg-gray-50/50 p-12 flex items-center justify-center relative overflow-hidden">
+				<div class="relative w-full max-w-2xl">
+					<!-- Center Hivebuy Hub -->
+					<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20">
+						<div class="w-20 h-20 bg-black rounded-2xl flex items-center justify-center border-2 border-gray-200">
+							<svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M12 4L4 8V16L12 20L20 16V8L12 4Z" fill="oklch(0.696 0.17 162.48)"/>
+								<path d="M12 4V12M4 8L12 12M20 8L12 12M12 20V12M4 16L12 12M20 16L12 12" stroke="white" stroke-width="1.5"/>
+							</svg>
+						</div>
+						<div class="absolute -bottom-6 left-1/2 -translate-x-1/2 whitespace-nowrap">
+							<div class="text-xs font-bold text-gray-900 bg-white px-2 py-1 rounded border border-gray-200">Hivebuy</div>
+						</div>
 					</div>
 
-					<!-- Connecting Lines -->
-					<svg class="absolute inset-0 w-full h-full pointer-events-none">
-						<line x1="50%" y1="50%" x2="20%" y2="20%" stroke="#e5e7eb" stroke-width="1" />
-						<line x1="50%" y1="50%" x2="80%" y2="20%" stroke="#e5e7eb" stroke-width="1" />
-						<line x1="50%" y1="50%" x2="20%" y2="80%" stroke="#e5e7eb" stroke-width="1" />
-						<line x1="50%" y1="50%" x2="80%" y2="80%" stroke="#e5e7eb" stroke-width="1" />
-						<line x1="50%" y1="50%" x2="50%" y2="15%" stroke="#e5e7eb" stroke-width="1" />
-						<line x1="50%" y1="50%" x2="50%" y2="85%" stroke="#e5e7eb" stroke-width="1" />
+					<!-- Animated Connection Lines -->
+					<svg class="absolute inset-0 w-full h-full pointer-events-none z-10" viewBox="0 0 600 300">
+						<defs>
+							<linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+								<stop offset="0%" style="stop-color:oklch(0.696 0.17 162.48);stop-opacity:0.2" />
+								<stop offset="50%" style="stop-color:oklch(0.696 0.17 162.48);stop-opacity:0.6" />
+								<stop offset="100%" style="stop-color:oklch(0.696 0.17 162.48);stop-opacity:0.2" />
+							</linearGradient>
+						</defs>
+						<!-- Lines connecting center to integrations -->
+						<line x1="300" y1="150" x2="80" y2="60" stroke="url(#lineGradient)" stroke-width="2" stroke-dasharray="4 4" />
+						<line x1="300" y1="150" x2="520" y2="60" stroke="url(#lineGradient)" stroke-width="2" stroke-dasharray="4 4" />
+						<line x1="300" y1="150" x2="80" y2="240" stroke="url(#lineGradient)" stroke-width="2" stroke-dasharray="4 4" />
+						<line x1="300" y1="150" x2="520" y2="240" stroke="url(#lineGradient)" stroke-width="2" stroke-dasharray="4 4" />
+						<line x1="300" y1="150" x2="150" y2="150" stroke="url(#lineGradient)" stroke-width="2" stroke-dasharray="4 4" />
+						<line x1="300" y1="150" x2="450" y2="150" stroke="url(#lineGradient)" stroke-width="2" stroke-dasharray="4 4" />
 					</svg>
 
-					<!-- ERP System Icons -->
-					<div class="absolute top-10 left-20 bg-white p-3 rounded-lg shadow-sm border border-gray-100">
-						<div class="text-xs font-bold text-gray-700">SAP</div>
-					</div>
-					<div class="absolute top-10 right-20 bg-white p-3 rounded-lg shadow-sm border border-gray-100">
-						<div class="text-xs font-bold text-gray-700">DATEV</div>
-					</div>
-					<div class="absolute bottom-10 left-20 bg-white p-3 rounded-lg shadow-sm border border-gray-100">
-						<div class="text-xs font-bold text-gray-700">Lexware</div>
-					</div>
-					<div class="absolute bottom-10 right-20 bg-white p-3 rounded-lg shadow-sm border border-gray-100">
-						<div class="text-xs font-bold text-gray-700">SAGE</div>
-					</div>
-					<div class="absolute top-4 left-1/2 -translate-x-1/2 bg-white p-3 rounded-lg shadow-sm border border-gray-100">
-						<div class="text-xs font-bold text-gray-700">Oracle</div>
-					</div>
-					<div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white p-3 rounded-lg shadow-sm border border-gray-100">
-						<div class="text-xs font-bold text-gray-700">Navision</div>
+					<!-- Integration Cards Grid -->
+					<div class="relative z-10 grid grid-cols-3 gap-6">
+						<!-- Row 1 -->
+						<div class="bg-white rounded-xl p-4 border-2 border-gray-200 flex flex-col items-center justify-center h-24 hover:border-gray-300 transition-colors">
+							<div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-2">
+								<span class="text-white font-bold text-lg">SAP</span>
+							</div>
+							<div class="text-[10px] text-gray-500 font-medium">ERP System</div>
+						</div>
+
+						<div class="bg-white rounded-xl p-4 border-2 border-gray-200 flex flex-col items-center justify-center h-24 hover:border-gray-300 transition-colors">
+							<div class="w-12 h-12 bg-gradient-to-br from-red-500 to-orange-500 rounded-lg flex items-center justify-center mb-2">
+								<span class="text-white font-bold text-xs">MS Dyn</span>
+							</div>
+							<div class="text-[10px] text-gray-500 font-medium">ERP System</div>
+						</div>
+
+						<div class="bg-white rounded-xl p-4 border-2 border-gray-200 flex flex-col items-center justify-center h-24 hover:border-gray-300 transition-colors">
+							<div class="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center mb-2">
+								<span class="text-white font-bold text-xs">DATEV</span>
+							</div>
+							<div class="text-[10px] text-gray-500 font-medium">Accounting</div>
+						</div>
+
+						<!-- Row 2 - Center row with Hivebuy in middle -->
+						<div class="bg-white rounded-xl p-4 border-2 border-gray-200 flex flex-col items-center justify-center h-24 hover:border-gray-300 transition-colors">
+							<div class="w-12 h-12 bg-purple-600 rounded-lg flex items-center justify-center mb-2">
+								<MessageSquare size={24} class="text-white" />
+							</div>
+							<div class="text-[10px] text-gray-500 font-medium">MS Teams</div>
+						</div>
+
+						<div class="flex items-center justify-center h-24">
+							<!-- Hivebuy center space -->
+						</div>
+
+						<div class="bg-white rounded-xl p-4 border-2 border-gray-200 flex flex-col items-center justify-center h-24 hover:border-gray-300 transition-colors">
+							<div class="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center mb-2">
+								<span class="text-white font-bold text-lg">#</span>
+							</div>
+							<div class="text-[10px] text-gray-500 font-medium">Slack</div>
+						</div>
+
+						<!-- Row 3 -->
+						<div class="bg-white rounded-xl p-4 border-2 border-gray-200 flex flex-col items-center justify-center h-24 hover:border-gray-300 transition-colors">
+							<div class="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center mb-2">
+								<span class="text-white font-bold text-xs">Oracle</span>
+							</div>
+							<div class="text-[10px] text-gray-500 font-medium">ERP System</div>
+						</div>
+
+						<div class="bg-white rounded-xl p-4 border-2 border-gray-200 flex flex-col items-center justify-center h-24 hover:border-gray-300 transition-colors">
+							<div class="w-12 h-12 bg-teal-600 rounded-lg flex items-center justify-center mb-2">
+								<Database size={24} class="text-white" />
+							</div>
+							<div class="text-[10px] text-gray-500 font-medium">d.Velop</div>
+						</div>
+
+						<div class="bg-white rounded-xl p-4 border-2 border-gray-200 flex flex-col items-center justify-center h-24 hover:border-gray-300 transition-colors">
+							<div class="w-12 h-12 bg-gray-700 rounded-lg flex items-center justify-center mb-2">
+								<span class="text-white font-bold text-xs">+12</span>
+							</div>
+							<div class="text-[10px] text-gray-500 font-medium">More tools</div>
+						</div>
 					</div>
 				</div>
 				
 				<!-- Decorative geometric shape -->
-				<div class="absolute bottom-10 right-10 opacity-20">
-					<svg width="100" height="100" viewBox="0 0 100 100" fill="none">
+				<div class="absolute bottom-10 right-10 opacity-10">
+					<svg width="120" height="120" viewBox="0 0 100 100" fill="none">
 						<rect x="25" y="25" width="50" height="50" stroke="black" stroke-width="1" transform="rotate(45 50 50)"/>
 						<rect x="25" y="25" width="50" height="50" stroke="black" stroke-width="1"/>
 					</svg>
