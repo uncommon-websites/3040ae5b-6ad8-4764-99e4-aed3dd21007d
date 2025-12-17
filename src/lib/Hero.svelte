@@ -180,6 +180,14 @@
 		</div>
 	</div>
 
+	<!-- Integration Section -->
+	<div class="mt-20 text-center max-w-3xl mx-auto">
+		<p class="text-sm font-medium text-gray-500 mb-4">Built to fit into what you already use. Plug in. Don't rebuild.</p>
+		<p class="text-base text-gray-700 leading-relaxed">
+			Hivebuy integrates seamlessly with your existing tools and workflows—no complex setup, no disruption. Connect to any ERP system, embed Hivebuy into your current stack, and deploy the Hivebuy chat agent directly in tools like Microsoft Teams. Get value from day one with an implementation that's as effortless as it is powerful.
+		</p>
+	</div>
+
 	<!-- Logos -->
 	<div class="mt-20 flex flex-wrap justify-center items-center gap-12 opacity-60">
 		<div class="text-gray-500 text-sm font-medium">Trusted by leading German SMEs:</div>
